@@ -180,33 +180,33 @@ const experiences = [
   },
 ];
 
-// const testimonials = [
-//   {
-//     testimonial:
-//       "I am confident that Anshaj will be able to succeed with his computer science major. He has the skill and drive that are optimal for any academic pursuits.He has the qualities that an educator looks for in all of their students, and I cannot recommend him enough.",
-//     name: "Brayan shaffer",
-//     designation: "Professor",
-//     company: "University of Massachusetts",
-//     image: bryanShaffer,
-//   },
-//   {
-//     testimonial:
-//       "Great student, very hard working and dedicated. I will recomend him for Tapai confrence and future opportunities.",
-//     name: "Olga Karpenko",
-//     designation: "Professor",
-//     company: "University of San Francisco",
-//     image: olga,
-//   },
-//   {
-//     testimonial:
-//       "Anshaj is avery good devlopment engineer. he has a good sense of ownership and can get projects done on time.",
-//     name: "Wei Zhang",
-//     designation: "Software Development Engineer",
-//     company: "Amazon",
-//     image: wei,
-//   },
+const testimonials = [
+  {
+    testimonial:
+      "I am confident that Anshaj will be able to succeed with his computer science major. He has the skill and drive that are optimal for any academic pursuits.He has the qualities that an educator looks for in all of their students, and I cannot recommend him enough.",
+    name: "Brayan shaffer",
+    designation: "Professor",
+    company: "University of Massachusetts",
+    image: bryanShaffer,
+  },
+  {
+    testimonial:
+      "Great student, very hard working and dedicated. I will recomend him for Tapai confrence and future opportunities.",
+    name: "Olga Karpenko",
+    designation: "Professor",
+    company: "University of San Francisco",
+    image: olga,
+  },
+  {
+    testimonial:
+      "Anshaj is avery good devlopment engineer. he has a good sense of ownership and can get projects done on time.",
+    name: "Wei Zhang",
+    designation: "Software Development Engineer",
+    company: "Amazon",
+    image: wei,
+  },
 
-// ];
+];
 
 const projects = [
   {
