@@ -23,9 +23,11 @@ import threejs from "./tech/threejs.svg";
 import fastApi from "./tech/fastApi.png";
 import Python from "./tech/Python.jpeg";
 
-import amazon from "./company/amazon.png";
-import gmg from "./company/gmg.png";
-import usf from "./company/usf.png";
+import neu from "./company/neu.png"
+import infini from "./company/infini.png"
+import khoury from "./company/khoury.png"
+import ocg from "./company/ocg.png"
+import ur from "./company/ur.png"
 
 import bank from "./Bank.png";
 import tripguide from "./tripguide.png";
@@ -65,9 +67,11 @@ export {
   Python,
   tripguide,
   bank,
-  amazon,
-  gmg,
-  usf,
+  neu,
+  infini,
+  khoury,
+  ocg,
+  ur,
   GPT3,
   live,
   bryanShaffer,

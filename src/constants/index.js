@@ -16,9 +16,11 @@ import {
   git,
   figma,
   docker,
-  amazon,
-  gmg,
-  usf,
+  neu,
+  infini,
+  khoury,
+  ocg,
+  ur,
   bank,
   fastApi,
   Python,
@@ -124,7 +126,7 @@ const experiences = [
   {
     title: "Research Apprentice",
     company_name: "Khoury College of Computer Science, Northeastern University",
-    icon: amazon,
+    icon: khoury,
     iconBg: "#383E56",
     date: "Sep 2024 - Dec 2024",
     points: [
@@ -135,7 +137,7 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "InfiniFlow",
-    icon: gmg,
+    icon: infini,
     iconBg: "#383E56",
     date: "May 2024 - Aug 2024",
     points: [
@@ -147,7 +149,7 @@ const experiences = [
   {
     title: "Full-stack Software Engineer Intern",
     company_name: "One Community Global",
-    icon: usf,
+    icon: ocg,
     iconBg: "#383E56",
     date: "May 2024 - Aug 2024",
     points: [
@@ -158,7 +160,7 @@ const experiences = [
   {
     title: "Graduate Teaching Assistant for Discrete Structures",
     company_name: "Northeastern University",
-    icon: usf,
+    icon: neu,
     iconBg: "#383E56",
     date: "Jan 2024 - Apr 2024",
     points: [
@@ -169,9 +171,9 @@ const experiences = [
   {
     title: "CEO Assistant",
     company_name: "Uranus Research",
-    icon: usf,
+    icon: ur,
     iconBg: "#383E56",
-    date: "May 2024 - Aug 2024",
+    date: "Nov 2021 - Sep 2022",
     points: [
       "Innovatively executed 20+ promotional strategies for social media channels. Authored 20+ impactful new media articles, resulting in a cumulative page view count 1.8m+. Moreover, successfully grew the fan base by a remarkable 144%.",
       "Cultivated strategic partnerships with prominent media outlets, securing 5+ valuable media resources, elevating Uranus Research from obscurity to prominence within the Shanghai hedge fund arena.",
@@ -183,27 +185,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I am confident that Anshaj will be able to succeed with his computer science major. He has the skill and drive that are optimal for any academic pursuits.He has the qualities that an educator looks for in all of their students, and I cannot recommend him enough.",
-    name: "Brayan shaffer",
+      "I am confident that Hui will be able to succeed with her computer science major. She has the skill and drive that are optimal for any academic pursuits.",
+    name: "Sarita",
     designation: "Professor",
-    company: "University of Massachusetts",
+    company: "Northeastern University",
     image: bryanShaffer,
-  },
-  {
-    testimonial:
-      "Great student, very hard working and dedicated. I will recomend him for Tapai confrence and future opportunities.",
-    name: "Olga Karpenko",
-    designation: "Professor",
-    company: "University of San Francisco",
-    image: olga,
-  },
-  {
-    testimonial:
-      "Anshaj is avery good devlopment engineer. he has a good sense of ownership and can get projects done on time.",
-    name: "Wei Zhang",
-    designation: "Software Development Engineer",
-    company: "Amazon",
-    image: wei,
   },
 
 ];
