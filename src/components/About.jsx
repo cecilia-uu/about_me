@@ -42,19 +42,22 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl laeding-[30px]
       "
       >
+        <p>
         I'm a skilled software development engineer with experince in Java, Python, C/C++, Javascript, React,
         Node.js, Express, MongoDB. I'm pursuing a Master's degree in Computer Science at Northeastern University, 
         maintaining an impressive 4.0 GPA. With a strong foundation in backend development, web technologies, 
         mobile application development, and machine learning, I bring experience from two software engineering internships 
         in both backend and full-stack roles. I'm proficient in Java, Python, and C/C++, with expertise in Java, Spring Boot, 
         and Android development, having independently built an Android application.
-        
+        </p>
+        <p>
         I have demonstrated academic excellence, serving as a Teaching Assistant 
         and currently contributing as a Research Apprentice in Human-Computer Interaction at Northeastern. 
         My algorithmic skills are exceptional, ranking in the top 10% globally in LeetCode weekly contests. 
         Additionally, I possess strong communication and teamwork skills, 
         developed through my prior branding experience, where I advanced from a specialist to a CEO Assistant. 
         I'm currently looking for a SDE intern/co-op position.
+        </p>
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
