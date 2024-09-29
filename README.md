@@ -15,7 +15,7 @@ A personal portfolio website showcasing the work and skills of Hui Kong. This se
 
 ## Demo
 
-https://anshajvats.github.io/about_me/
+https://cecilia-uu.github.io/about_me/
 
 ## Description
 
@@ -29,7 +29,7 @@ This portfolio website serves as a digital resume for Hui Kong. It includes deta
 
 ## Installation
 
-As this is a portfolio website, no installation is required. Simply visit the live site [here](https://anshajvats.github.io/about_me/).
+As this is a portfolio website, no installation is required. Simply visit the live site [here](https://cecilia-uu.github.io/about_me/).
 
 ## Usage
 
