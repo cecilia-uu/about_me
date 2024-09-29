@@ -22,6 +22,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import fastApi from "./tech/fastApi.png";
 import Python from "./tech/Python.jpeg";
+import android from "./tech/android.png";
+import aws from "./tech/aws.png";
+import c from "./tech/c.jpeg";
+import cpp from "./tech/cpp.png";
+import java from "./tech/java.png";
+import mysql from "./tech/mysql.png";
+import pytorch from "./tech/pytorch.png";
 
 import neu from "./company/neu.png"
 import infini from "./company/infini.png"
@@ -59,6 +66,13 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  android,
+  aws,
+  c,
+  cpp,
+  java,
+  mysql,
+  pytorch,
   redux,
   tailwind,
   typescript,

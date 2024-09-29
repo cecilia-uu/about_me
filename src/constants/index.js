@@ -16,6 +16,13 @@ import {
   git,
   figma,
   docker,
+  android,
+  aws,
+  c,
+  cpp,
+  java,
+  mysql,
+  pytorch,
   neu,
   infini,
   khoury,
@@ -67,14 +74,27 @@ const services = [
   },
 ];
 
+// technologies
 const technologies = [
   {
     name: "Python",
     icon: Python,
   },
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "PyTorch",
+    icon: pytorch,
   },
   {
     name: "CSS 3",
@@ -89,12 +109,16 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Android",
+    icon: android,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "PyTorch",
+    icon: pytorch,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "Node JS",
@@ -115,6 +139,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "aws",
+    icon: aws,
   },
   {
     name: "FastAPI",
