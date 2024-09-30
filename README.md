@@ -1,4 +1,4 @@
-# about_me: Hui Kong
+# Hui Kong
 
 A personal portfolio website showcasing the work and skills of Hui Kong. This serves as a digital resume, providing an overview of projects, skills, and experiences.
 
@@ -39,5 +39,4 @@ Navigate through different sections of the portfolio to explore projects, skills
 
 - React
 - Three.js (for 3D elements)
-- (Other technologies used in your portfolio)
 - Tailwind css
