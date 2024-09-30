@@ -39,6 +39,8 @@ import ur from "./company/ur.png"
 import bank from "./Bank.png";
 import tripguide from "./tripguide.png";
 import GPT3 from "./GPT3.png";
+import food from "./food.jpeg";
+import social from "./social.png";
 
 import live from "./Live.png";
 import bryanShaffer from "./bryanShaffer.jpg";
@@ -94,4 +96,6 @@ export {
   OpenAI,
   tank,
   YouTube,
+  food,
+  social,
 };

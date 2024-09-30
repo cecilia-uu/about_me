@@ -38,6 +38,9 @@ import {
   OpenAI,
   tank,
   YouTube,
+  // projects
+  food,
+  social,
 } from "../assets";
 
 export const navLinks = [
@@ -238,22 +241,22 @@ const projects = [
       },
       {
         name: "MySQL",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "Redis",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "JWT",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "MyBatis",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
-    image: bank,
+    image: food,
     source_code_link: "https://github.com/cecilia-uu/take_out_app",
     // live_link: "https://anshajvats.github.io/hoboBank",
   },
@@ -271,7 +274,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: GPT3,
+    image: social,
     source_code_link: "https://github.com/CS5520FeinbergSpring2024/team-project-group16",
     // live_link: "https://anshajvats.github.io/GPT3-Webpage/",
   },
