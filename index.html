@@ -5,9 +5,40 @@
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hui | Portfolio</title>
+    <style>
+      .hover-image {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        color: inherit;
+        width: 50px;
+        height: 5cap;
+      }
+
+      .hover-image::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+    </style>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <footer style="text-align:center">
+      <a href="mailto:careersus23@gmail.com"><img src="src/assets/email.png" alt="Email" class="hover-image" data-text="Email">
+      <a href="src/assets/HUIKONG_resume.pdf"><img src="src/assets/cv.png" alt="CV" class="hover-image" data-text="CV" >
+      <a href="https://www.linkedin.com/in/hui-cecilia-kong/"><img src="src/assets/linkedin.png" alt="LinkedIn" class="hover-image" data-text="LinkedIn" ></a> 
+      <a href="https://github.com/cecilia-uu"><img src="src/assets/github.png" alt="Github" class="hover-image" data-text="Github" ></a>
+    </footer>
   </body>
 </html>
