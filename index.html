@@ -5,10 +5,41 @@
     <link rel="icon" type="image/svg+xml" href="/Portfolio/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hui | Portfolio</title>
-    <script type="module" crossorigin src="/Portfolio/assets/index-DwXMVHRq.js"></script>
+    <style>
+      .hover-image {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        color: inherit;
+        width: 50px;
+        height: 5cap;
+      }
+
+      .hover-image::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+    </style>
+    <script type="module" crossorigin src="/Portfolio/assets/index-DoTGLtdp.js"></script>
     <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-BbYq3iZD.css">
   </head>
   <body>
     <div id="root"></div>
+    <footer style="text-align:center">
+      <a href="mailto:careersus23@gmail.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAA39JREFUeF7tnH1unDAQxTG5R6OeJJtbND1KoyiJqvQoTW8RepIqvUdwxQoUIlHmg7HHmLf/LvbY7/dmBliW0ODjqkBwjY7gDQA4mwAAAMBZAefwyAAAcFbAOTwyAACcFXAOjwwAAGcFnMMjAwDAWQHn8MgAAHBWwDk8MmBvAL58/3Nq2/YUQ7hqYjw5r7+M8CF0IcbfP28vH6QLEmXA16fXh9g099IgRzo+NM2jBAQbAMTn20gCgQUA4vPFn47kQmABuHl6jfIlYETs++tfd5+7NSVIAHC/3kicLCAB3Pz4+4KzHSWEELrnb5+uN2UAyo9S/HHY8+3lqsnpDCDqPyfNtm2hzNHD9VC4uLinqkNyANKuX6acslVJ+mI2AOcthNDFt7dHqvPLtlvO0VzXz1ecF8AYucayJHG9O4CaypLG9cUAOFcl4b2RUgrOVuGnfbiUoCUR9wRCW26W9l0MgD00aSvXZy1Bg7Olt6hLzAax68czvtC2L2tlM3kGTAHEGyikP2hcPzcQdacgG4DBBVs3k7MBa9a6dJ1TFIBJwNKzwXJ9RQJQg0h8JW3l+nmmFg1gWKil27aUKPE6mGYoHoA6G4yatMb1krO03QDI3aQ1wmtuJu4KQK5sEJebDdm2SwBqEERdzuX6XTVhqnFauVU8D7PJUuvfdQbMNycWcCwbfd93nJ8G57EkTfYwALRNmhLow/dGrq+qBC0JqMkGCoSl66sHoG7Siz9EpP2dupoe8D8Hq7MhQblZWmP1ADTZkKrcHBoAq0lncv1heoCkLOV0/eEBfChLIVx5Pgx2mB5AnWZ6fQ8AXsqPcQEAANaff3fWJ3l4ZEByidcDAAAAoASteSDrg1nOZnQJjxLkIvt7UAAAAPQA9ADHLEAJchR/CA0AAIAegB7gmAUoQY7iowc4iw8AANA01M2mAjRKugT3HpB0dxVMThmUfmETXlmmt4HFK8vUjwbql13NSM6zSmQGnP91QvwdvxrFjDdClZ8hHAlgOAhZICfDcT8bACDIAHDFFwEABB4EifhiANMSziUJr69/JzK+vn74v5r0hYWsHsBjj6M0CgCARjXDMQBgKKZmKgDQqGY4BgAMxdRMBQAa1QzHAIChmJqpAECjmuEYADAUUzMVAGhUMxwDAIZiaqYCAI1qhmMAwFBMzVQAoFHNcAwAGIqpmQoANKoZjvkHNwoEjvC2vRgAAAAASUVORK5CYII=" alt="Email" class="hover-image" data-text="Email">
+      <a href="src/assets/HUIKONG_resume.pdf"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAyBJREFUeF7tnWFuE0EMhXdzECpOQnoLylGoEEWoHIVyi4aToHKQLloEKASal+mz40n2y99Ze+z32TOzGyU7DnxKFRhLZ2fyAQDFRQAAABQrUDw9HQCAYgWKp6cDzhHAm9uHm2kcXw3TtC7Obz7mffh8fXFTHcdT84d2wE/hh+F9b8n2DCEMQK/i/y6GXiGEAOhd/J4h2ABef/y2Hler+96WnT1rbld7gg3gVKp/G0hPy5EN4OrT9/seTjutHdgLBB/A7cPUmnwv1/cAIR3A3fWFPUcLsKvGgqiGYIujEu4dwAy3EgIAfrVXFQQAbK1vFRAAsLPBHBsCAP6zwx8TAgCeOGIdCwIA9pxxjwEBAOImIxsCAA64y8uEAIADAGTerAHgQABZEADQACADAgAaAURDAMAzAERCAMAzAURBAIABYDZ1H7cDAACmAjvm6gui2NnogH/0BMCOJO4aGV2xrf4UUDe/s9sDWgVW1wNAKZQ8DoBkgZV7ACiFkscBkCywcg8ApVDyOACSBVbuAaAUSh4HQLLAyj0AlELJ4wBIFli5P3sAKkElkDuunuWo+JS9iq/8WZBKUCXgjisBVXzKXsUHAPELHgCoEjLHVQUDwBRYmQOg8Ud1StDWcQAAoLVm/r7eXSOVvRedtl58B2iJaq9QBaIAqujLj6EqwOpxABQTAAAA9iuQXSHF+g/Z+bEHCMIAKG4BAAAgdw9QFZatvzrHq/iUvYq/fA9QCaoE3HEloIpP2av4AMD3AbX/OacqmA5QPWyOA4DH0V4JuS2q7L3otDUdQAfoKtl3hapgVWHe7PnW2fmVH0PzJfRmAICnn20NAFtCzwEAPP1sawDYEnoOAODpZ1sDwJbQc3DyALz0+7d273P8+4ATfYVJCNpx3Ny9fXHp+LIBnOJLfBzBtm0j/tDVBjAHpNbJqIR78zM9Pl5+efdy48QVAmCJXRBR/TO4EACzoyVBiBI/FMBSIESKHw5gdji/2nC1Wq17eZ2tsz7/sR3HzThNXzNeixu2BIUkukAnACiGDgAAFCtQPD0dAIBiBYqnpwMAUKxA8fQ/APRqt39YvwXBAAAAAElFTkSuQmCC" alt="CV" class="hover-image" data-text="CV" >
+      <a href="https://www.linkedin.com/in/hui-cecilia-kong/"><img src="/Portfolio/assets/linkedin-DRg53_Fo.png" alt="LinkedIn" class="hover-image" data-text="LinkedIn" ></a> 
+      <a href="https://github.com/cecilia-uu"><img src="/Portfolio/assets/github-BUfx7uqA.png" alt="Github" class="hover-image" data-text="Github" ></a>
+    </footer>
   </body>
 </html>
