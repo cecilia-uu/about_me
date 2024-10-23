@@ -213,17 +213,25 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I am confident that Hui will be able to succeed with her computer science major. She has the skill and drive that are optimal for any academic pursuits.",
-    name: "Sarita",
-    designation: "Professor",
-    company: "Northeastern University",
-    image: bryanShaffer,
-  },
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I am confident that Hui will be able to succeed with her computer science major. She has the skill and drive that are optimal for any academic pursuits.",
+//     name: "Sarita",
+//     designation: "Professor",
+//     company: "Northeastern University",
+//     image: bryanShaffer,
+//   },
+//   {
+//     testimonial:
+//       "I am confident that Hui will be able to succeed with her computer science major. She has the skill and drive that are optimal for any academic pursuits.",
+//     name: "Sarita",
+//     designation: "Professor",
+//     company: "Northeastern University",
+//     image: bryanShaffer,
+//   }
 
-];
+// ];
 
 const projects = [
   {
